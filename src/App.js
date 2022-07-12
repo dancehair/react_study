@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-// import Example from './components/3-11.Portal/Example';
+import Example from './components/3-11.Portal/Example';
 // import Example from './components/3-10.Context/Example';
-import Memo from './components/3-8.Memoization/Memo';
+// import Memo from './components/3-8.Memoization/Memo';
 // import Input from './components/3-7.HOC/Input';
 // import Button from './components/3-7.HOC/Button';
 // import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
@@ -41,9 +41,9 @@ function App() {
       {/*<ThankyouDialog />*/}
       {/*<Input />*/}
       {/*<Button />*/}
-      <Memo />
+      {/*<Memo />*/}
       {/*<Example />*/}
-      {/*<Example />*/}
+      <Example />
     </div>
   );
 }
